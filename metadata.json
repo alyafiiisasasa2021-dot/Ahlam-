@@ -1,0 +1,6 @@
+{
+  "name": "شخصية الذكاء الاصطناعي الافتراضية - AI Avatar Studio",
+  "description": "شخصية افتراضية واقعية بالذكاء الاصطناعي للمحادثات الحية وتوليد فيديوهات التيك توك ورسائل الواتساب الفورية",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

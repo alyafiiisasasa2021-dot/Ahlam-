@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@keyframes floatHeart {
+  0% {
+    opacity: 1;
+    transform: translateY(0) scale(0.8) rotate(0deg);
+  }
+  50% {
+    opacity: 0.9;
+    transform: translateY(-120px) scale(1.2) rotate(-15deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-240px) scale(1.5) rotate(15deg);
+  }
+}
+
+.animate-float-heart {
+  animation: floatHeart 1.8s ease-out forwards;
+}
+
+/* Hide scrollbar for clean UI in tabs and comment streams */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
